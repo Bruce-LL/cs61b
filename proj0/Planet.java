@@ -20,7 +20,12 @@ public class Planet {
     }
 
     public Planet(Planet p) {
-
+        this.xxPos = p.xxPos;
+        this.yyPos = p.yyPos;
+        this.xxVel = p.xxVel;
+        this.yyVel = p.yyVel;
+        this.mass = p.mass;
+        this.imgFileName = p.imgFileName;
     }
 
     public double calcDistance(Planet p){
