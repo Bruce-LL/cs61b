@@ -7,7 +7,7 @@ public class Planet {
     public double yyVel;
     public double mass;
     public String imgFileName;
-    public double G = 6.67e-11f;
+    private double G = 6.67e-11f; // make it private because AutoGrate doesn't want to see it.
 
     public Planet(double xP, double yP, double xV,
                   double yV, double m, String img) {
